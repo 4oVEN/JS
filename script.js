@@ -23,22 +23,58 @@
 
 'use strict';
 
-const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+// const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
 
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false
-};
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false
+// };
 
-console.log(personalMovieDB.count);
+// console.log(personalMovieDB.count);
 
-const lastMovie = prompt('Один из последних просмотренных фильмов?', '');
-const rating = prompt('На сколько оцените его?', '');
+// const lastMovie = prompt('Один из последних просмотренных фильмов?', '');
+// const rating = prompt('На сколько оцените его?', '');
 
-personalMovieDB.movies[lastMovie] = rating;
-console.log(personalMovieDB);
+// personalMovieDB.movies[lastMovie] = rating;
+// console.log(personalMovieDB);
+
+
+
+
+// if (4 == 9){
+//   console.log('OK');
+// } else {
+//   console.log('Error');
+// }
+
+
+// if (num < 49){
+//   console.log('Error');
+// } else if(num > 100){
+//   console.log('Много');
+// } else {
+//   console.log('Ok');
+// }
+
+// (num === 50) ? console.log('Ok') : console.log('Error');
+
+const num = 50;
+switch(num){
+  case 49:
+    console.log('Неверно');
+    break;
+  case 100:
+    console.log('Много');
+    break;
+  case 50:
+    console.log('В точку');
+    break;
+  default:
+    console.log('Не в этот раз');
+    break;
+}
 
 
