@@ -61,20 +61,50 @@
 
 // (num === 50) ? console.log('Ok') : console.log('Error');
 
-const num = 50;
-switch(num){
-  case 49:
-    console.log('Неверно');
-    break;
-  case 100:
-    console.log('Много');
-    break;
-  case 50:
-    console.log('В точку');
-    break;
-  default:
-    console.log('Не в этот раз');
-    break;
+// const num = 50;
+// switch(num){
+//   case 49:
+//     console.log('Неверно');
+//     break;
+//   case 100:
+//     console.log('Много');
+//     break;
+//   case 50:
+//     console.log('В точку');
+//     break;
+//   default:
+//     console.log('Не в этот раз');
+//     break;
+// }
+
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+
+// if(hamburger === 3 && cola === 2 || fries === 3 && nuggets){
+//   console.log('Все довольны!');
+// } else {
+//   console.log('Все пошло по пизде!!!');
+// }
+// let a, b, c, d = 'done';
+// let num = 50;
+
+// while(num <= 55){
+//   console.log(num);
+//   num++;
+// }
+
+// do {
+//   console.log(num);
+//   num++;
+// }
+// while (num < 55);
+
+for ( let i = 1; i < 10; i++){
+  if (i === 6){
+    // break;
+    continue;
+  }
+  console.log(i);
 }
-
-
